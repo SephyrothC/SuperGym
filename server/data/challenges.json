@@ -1,0 +1,240 @@
+[
+  {
+    "id": 1,
+    "nom": "Faire 30 abdos",
+    "description": "Un défi rapide mais intense pour renforcer vos abdominaux et booster votre énergie en quelques minutes.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 2,
+    "nom": "Courir 5 km",
+    "description": "Testez votre endurance et libérez des endorphines avec une course de 5 km, parfaite pour débuter la course à pied.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 3,
+    "nom": "Faire 10 pompes",
+    "description": "Développez votre force du haut du corps et tonifiez vos bras, épaules et pectoraux avec ce défi rapide.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 4,
+    "nom": "Tenir la planche 2 minutes",
+    "description": "Renforcez votre sangle abdominale et améliorez votre posture avec cet exercice statique.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 5,
+    "nom": "Tenir la chaise pendant 2 minutes",
+    "description": "Travaillez vos quadriceps et votre endurance musculaire avec ce défi exigeant.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 6,
+    "nom": "Faire 30 squats",
+    "description": "Dynamisez vos jambes et vos fessiers avec ce défi simple mais efficace.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 7,
+    "nom": "Monter 150 marches",
+    "description": "Stimulez votre cardio et vos jambes en relevant ce défi en montée.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 8,
+    "nom": "Battre un PR",
+    "description": "Repoussez vos limites et dépassez votre record personnel, quel que soit le domaine choisi.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 9,
+    "nom": "Boire 2L d'eau/jour pendant 1 semaine",
+    "description": "Boostez votre hydratation et ressentez les bienfaits sur votre énergie et votre peau.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 10,
+    "nom": "Manger des fruits/légumes à chaque repas pendant 2 jours d'affilé",
+    "description": "Améliorez votre alimentation et faites le plein de vitamines.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 11,
+    "nom": "Marcher 1 km",
+    "description": "Une promenade rapide pour favoriser la circulation sanguine et votre bien-être général.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 12,
+    "nom": "Aller 2 fois à la salle/semaine pendant 1 mois",
+    "description": " Engagez-vous dans une routine sportive régulière pour des résultats durables.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 13,
+    "nom": "Faire 70 abdos",
+    "description": "Un défi de résistance pour renforcer votre sangle abdominale.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 14,
+    "nom": "Courir 10 km",
+    "description": "Poussez vos limites et améliorez votre endurance avec cette distance exigeante.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 15,
+    "nom": "Faire 50 pompes",
+    "description": "Un défi intense pour muscler vos pectoraux, épaules et bras.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 16,
+    "nom": "Tenir la planche 5 minutes",
+    "description": "Testez votre mental et votre endurance physique avec cet exercice complet.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 17,
+    "nom": "Tenir la chaise pendant 5 minutes",
+    "description": "Relevez ce défi de force mentale et d'endurance musculaire.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 18,
+    "nom": "Faire 70 squats",
+    "description": "Renforcez vos jambes et brûlez des calories avec cette série de squats.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 19,
+    "nom": "Monter 600 marches",
+    "description": "Un défi cardio intense pour travailler vos jambes et améliorer votre endurance.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 20,
+    "nom": "Boire 2L d'eau/jour pendant 2 semaines",
+    "description": "Restez hydraté et constatez des effets positifs sur votre énergie et votre concentration.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 21,
+    "nom": "Manger des fruits/légumes à chaque repas pendant 5 jours d'affilé",
+    "description": "Un boost de vitamines et de nutriments pour renforcer votre santé.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 22,
+    "nom": "Marcher 5 km",
+    "description": " Profitez des bienfaits d’une marche plus longue pour vous détendre et vous revitaliser.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 23,
+    "nom": "Aller 3 fois à la salle/semaine pendant 1 mois",
+    "description": "Établissez une routine solide pour voir des progrès visibles.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 24,
+    "nom": "Faire 150 abdos",
+    "description": " Un challenge d'endurance pour des abdos d'acier.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 25,
+    "nom": "Courir 15 km",
+    "description": "Une vraie épreuve d’endurance pour les coureurs expérimentés.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 26,
+    "nom": "Faire 100 pompes",
+    "description": "Un défi extrême pour booster votre force et votre mental.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 27,
+    "nom": "Tenir la planche 10 minutes",
+    "description": "Poussez vos limites et développez votre endurance physique et mentale.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 28,
+    "nom": "Tenir la chaise pendant 10 minutes",
+    "description": "Testez votre résistance et votre volonté avec ce défi ultime.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 29,
+    "nom": "Faire 150 squats",
+    "description": "Un véritable brûleur de calories pour des jambes solides.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 30,
+    "nom": "Monter 1500 marches",
+    "description": "Un défi ultime pour tester votre endurance et votre force mentale.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 31,
+    "nom": "Boire 2L d'eau/jour pendant 1 mois",
+    "description": "Adoptez une habitude saine à long terme pour améliorer votre santé globale.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 32,
+    "nom": "Manger des fruits/légumes à chaque repas pendant 1 mois d'affilé",
+    "description": "Transformez votre alimentation pour un mode de vie plus sain.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 33,
+    "nom": "Marcher 10 km",
+    "description": "Profitez d'une longue balade pour améliorer votre endurance et réduire le stress.",
+    "validé": false,
+    "exp": 0
+  },
+  {
+    "id": 34,
+    "nom": "Aller 5 fois à la salle d'affilé",
+    "description": "Dépassez vos limites physiques et mentales avec ce challenge intensif.",
+    "validé": false,
+    "exp": 0
+  }
+]

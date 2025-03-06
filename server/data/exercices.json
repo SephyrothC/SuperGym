@@ -1,0 +1,282 @@
+[
+  {
+    "id": 1,
+    "nom": "Squats",
+    "mesure": "kg",
+    "logo": "but-logo.svg",
+    "PR": "0"
+  },
+  {
+    "id": 2,
+    "nom": "Pompes",
+    "mesure": "répétitions",
+    "logo": "arm-logo.svg",
+    "PR": 0
+  },
+  {
+    "nom": "Back extension",
+    "mesure": "kg",
+    "logo": "back-logo.svg",
+    "PR": "0",
+    "id": 3
+  },
+  {
+    "nom": "Fentes bulgares",
+    "mesure": "kg",
+    "logo": "but-logo.svg",
+    "PR": "0",
+    "id": 4
+  },
+  {
+    "nom": "Développé militaire",
+    "mesure": "kg",
+    "logo": "arm-logo.svg",
+    "PR": "0",
+    "id": 5
+  },
+  {
+    "nom": "Planche",
+    "mesure": "secondes",
+    "logo": "torso-logo.svg",
+    "PR": "0",
+    "id": 6
+  },
+  {
+    "nom": "Abdos sur banc",
+    "mesure": "kg",
+    "logo": "torso-logo.svg",
+    "PR": "0",
+    "id": 7
+  },
+  {
+    "nom": "Abdos sur chaise romaine",
+    "mesure": "répétitions",
+    "logo": "torso-logo.svg",
+    "PR": "0",
+    "id": 8
+  },
+  {
+    "nom": "Crunch sur machine",
+    "mesure": "kg",
+    "logo": "torso-logo.svg",
+    "PR": "0",
+    "id": 9
+  },
+  {
+    "nom": "Crunch sur tapis",
+    "mesure": "kg",
+    "logo": "torso-logo.svg",
+    "PR": "0",
+    "id": 10
+  },
+  {
+    "nom": "Abdos à la machine",
+    "mesure": "kg",
+    "logo": "torso-logo.svg",
+    "PR": "0",
+    "id": 11
+  },
+  {
+    "nom": "Fentes",
+    "mesure": "kg",
+    "logo": "leg-logo.svg",
+    "PR": "0",
+    "id": 12
+  },
+  {
+    "nom": "Seated leg curl",
+    "mesure": "kg",
+    "logo": "leg-logo.svg",
+    "PR": "0",
+    "id": 13
+  },
+  {
+    "nom": "Leg curl inversé",
+    "mesure": "kg",
+    "logo": "leg-logo.svg",
+    "PR": "0",
+    "id": 14
+  },
+  {
+    "nom": "Leg press assise",
+    "mesure": "kg",
+    "logo": "leg-logo.svg",
+    "PR": "0",
+    "id": 15
+  },
+  {
+    "nom": "Leg press inclinée",
+    "mesure": "kg",
+    "logo": "leg-logo.svg",
+    "PR": "0",
+    "id": 16
+  },
+  {
+    "nom": "Extensions mollet",
+    "mesure": "kg",
+    "logo": "leg-logo.svg",
+    "PR": "0",
+    "id": 17
+  },
+  {
+    "nom": "Chaise",
+    "mesure": "minutes",
+    "logo": "leg-logo.svg",
+    "PR": "0",
+    "id": 18
+  },
+  {
+    "nom": "Tirage vertical",
+    "mesure": "kg",
+    "logo": "back-logo.svg",
+    "PR": "0",
+    "id": 19
+  },
+  {
+    "nom": "Tirage horizontal",
+    "mesure": "kg",
+    "logo": "back-logo.svg",
+    "PR": "0",
+    "id": 20
+  },
+  {
+    "nom": "Deadlift",
+    "mesure": "kg",
+    "logo": "back-logo.svg",
+    "PR": "0",
+    "id": 21
+  },
+  {
+    "nom": "Extension lombaire",
+    "mesure": "kg",
+    "logo": "back-logo.svg",
+    "PR": "0",
+    "id": 22
+  },
+  {
+    "nom": "Tractions assistées",
+    "mesure": "kg",
+    "logo": "back-logo.svg",
+    "PR": "0",
+    "id": 23
+  },
+  {
+    "nom": "Tractions",
+    "mesure": "répétitions",
+    "logo": "back-logo.svg",
+    "PR": "0",
+    "id": 24
+  },
+  {
+    "nom": "Hip trust à la machine",
+    "mesure": "kg",
+    "logo": "but-logo.svg",
+    "PR": "0",
+    "id": 25
+  },
+  {
+    "nom": "Hip trust à la barre",
+    "mesure": "kg",
+    "logo": "but-logo.svg",
+    "PR": "0",
+    "id": 26
+  },
+  {
+    "nom": "Machine abduction de la hanche",
+    "mesure": "kg",
+    "logo": "but-logo.svg",
+    "PR": "0",
+    "id": 27
+  },
+  {
+    "nom": "Adducteur avec machine",
+    "mesure": "kg",
+    "logo": "leg-logo.svg",
+    "PR": "0",
+    "id": 28
+  },
+  {
+    "nom": "Curls à la barre",
+    "mesure": "kg",
+    "logo": "arm-logo.svg",
+    "PR": "0",
+    "id": 29
+  },
+  {
+    "nom": "Curls avec haltères",
+    "mesure": "kg",
+    "logo": "arm-logo.svg",
+    "PR": "0",
+    "id": 30
+  },
+  {
+    "nom": "Curls avec haltères prise marteau",
+    "mesure": "kg",
+    "logo": "arm-logo.svg",
+    "PR": "0",
+    "id": 31
+  },
+  {
+    "nom": "Curls à la poulie",
+    "mesure": "kg",
+    "logo": "arm-logo.svg",
+    "PR": "0",
+    "id": 32
+  },
+  {
+    "nom": "Kickbacks",
+    "mesure": "kg",
+    "logo": "arm-logo.svg",
+    "PR": "0",
+    "id": 33
+  },
+  {
+    "nom": "Développés couché",
+    "mesure": "kg",
+    "logo": "torso-logo.svg",
+    "PR": "0",
+    "id": 34
+  },
+  {
+    "nom": "Dips",
+    "mesure": "répétitions",
+    "logo": "arm-logo.svg",
+    "PR": "0",
+    "id": 35
+  },
+  {
+    "nom": "Escalier",
+    "mesure": "nombre de marches",
+    "logo": "heart-logo.svg",
+    "PR": "0",
+    "id": 36
+  },
+  {
+    "nom": "Développés incliné",
+    "mesure": "kg",
+    "logo": "torso-logo.svg",
+    "PR": "0",
+    "id": 37
+  },
+  {
+    "nom": "Course",
+    "mesure": "km",
+    "logo": "heart-logo.svg",
+    "PR": "0",
+    "id": 38
+  },
+  {
+    "nom": "Rameur",
+    "mesure": "minutes",
+    "logo": "heart-logo.svg",
+    "PR": "0",
+    "id": 39
+  },
+  {
+    "nom": "Butterfly",
+    "mesure": "kg",
+    "logo": "torso-logo.svg",
+    "PR": "0",
+    "id": 40
+  }
+]

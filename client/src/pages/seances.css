@@ -1,0 +1,122 @@
+.seances-container {
+    padding: 20px;
+    color: white;
+}
+
+.add-button {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-button:hover {
+    background-color: darkred;
+}
+
+.add-button ion-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.popup {
+     background: #222327;
+     padding: 20px;
+     border-radius: 10px;
+     width: 300px;
+     text-align: center;
+ }
+
+.popup h3 {
+    color: white;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style pour les inputs */
+.popup input,
+.popup select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    font-size: 16px;
+}
+
+/* Assurer que le texte du placeholder est noir */
+.popup input::placeholder {
+    color: black;
+}
+
+/* Style pour les boutons */
+.popup button {
+    margin-top: 10px;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.popup .close-button {
+    background: gray;
+}
+
+/* Style pour react-select */
+.basic-multi-select {
+    margin: 10px 0;
+}
+
+/* Style pour react-select avec fond gris clair et placeholder noir */
+.select__placeholder {
+    color: black; /* Placeholder noir */
+}
+
+.select__multi-value {
+    background-color: #e6e6e6;
+    color: #333;
+}
+
+.select__menu {
+    background-color: #f0f0f0; /* Fond du menu déroulant en gris clair */
+    color: black;
+}
+
+.select__option {
+    color: black; /* Couleur du texte des options */
+}
+
+.seances-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.seances-container .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.seances-container hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+}
+

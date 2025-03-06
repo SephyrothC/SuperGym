@@ -1,0 +1,161 @@
+.add-button {
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.add-button:hover {
+    background-color: darkred;
+}
+
+.add-button ion-icon {
+    font-size: 24px;
+    color: white;
+}
+
+.exercices-container {
+    padding: 20px;
+    color: white;
+}
+
+.exercices-table {
+    width: 100%;
+    background-color: #222327;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid white;
+}
+
+.exercices-table tr {
+    border-bottom: 1px solid #333;
+    min-height: 45px;
+}
+
+.exercices-table tr:last-child {
+    border-bottom: none;
+}
+
+.exercices-table td {
+    padding: 20px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.logo-cell {
+    width: 80px;
+}
+
+.ex-logo {
+    width: 40px;
+    height: 40px;
+    filter: invert(1);
+}
+
+.name-cell {
+    flex: 1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pr-cell {
+    font-size: 16px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+.popup {
+    background: #222327;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.popup h3 {
+    color: white;
+}
+
+.popup form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Style pour les inputs */
+.popup input,
+.popup select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background: white;
+    color: black;
+    font-size: 16px;
+}
+
+/* Assurer que le texte du placeholder est noir */
+.popup input::placeholder {
+    color: black;
+}
+
+/* Style pour les boutons */
+.popup button {
+    margin-top: 10px;
+    padding: 10px;
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.popup .close-button {
+    background: gray;
+}
+
+/* Style du bouton Modifier */
+.edit-button {
+    background-color: #e74c3c; /* Couleur rouge */
+    color: white; /* Texte en blanc */
+    border: none; /* Retirer la bordure */
+    border-radius: 5px; /* Bordures arrondies */
+    padding: 5px 10px; /* Espacement autour du texte */
+    font-size: 14px; /* Taille du texte */
+    cursor: pointer; /* Curseur en forme de main */
+    margin-left: 10px; /* Décaler un peu le bouton du PR */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animation au survol */
+}
+
+.edit-button:hover {
+    background-color: #c0392b; /* Couleur rouge plus foncée au survol */
+    transform: translateY(-2px); /* Effet de léger déplacement vers le haut */
+}
+
+.edit-button:focus {
+    outline: none; /* Retirer le contour lors du focus */
+}
+

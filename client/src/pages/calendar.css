@@ -1,0 +1,157 @@
+/* calendar.css */
+
+.calendar-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 20px;
+    border-radius: 16px;
+    min-height: 80%;
+}
+
+.calendar-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.calendar-title {
+    color: #ffffff;
+    font-size: 2rem;
+    margin: 0 10px;
+}
+
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 50px);
+    gap: 10px;
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.calendar-day-name {
+    text-align: center;
+    color: #cccccc;
+    font-weight: bold;
+}
+
+.calendar-day {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.calendar-day.clickable:hover {
+    background-color: #4a4a4a;
+}
+
+.calendar-day.empty {
+    background-color: transparent;
+    cursor: default;
+}
+
+.day-number {
+    color: black;
+    font-weight: bold;
+}
+
+.day-number.colored {
+    color: white;
+}
+
+/* Fond de la popup */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7); /* Fond semi-transparent */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+/* Contenu de la popup */
+.popup {
+    background: #222327;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    color: white;
+}
+
+/* Titre de la popup */
+.popup h3 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+/* Conteneur des boutons de la popup */
+.popup-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* Bouton Fermer */
+.popup .close-button {
+    background: gray;
+}
+
+/* Bouton Valider */
+.validate-button {
+    background: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    transition: 0.3s;
+}
+
+.validate-button:hover {
+    background-color: darkred;
+}
+
+
+/* Ciblage des boutons contenant les icônes */
+.calendar-header button ion-icon {
+    font-size: 2rem;
+    color: white;
+    transition: transform 0.2s ease;
+}
+
+/* Agrandissement de l'icône au survol */
+.calendar-header button:hover ion-icon {
+    transform: scale(1.2);
+}
+
+/* Ajout de padding pour améliorer la zone cliquable */
+.calendar-header button {
+    padding: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+/* Optionnel : ajouter un effet de focus pour une meilleure accessibilité */
+.calendar-header button:focus {
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+

@@ -1,0 +1,36 @@
+.statistiques-container {
+    padding: 20px;
+}
+
+.statistique {
+    margin-bottom: 40px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+.seances-chart {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
