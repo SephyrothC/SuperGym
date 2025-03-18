@@ -1,70 +1,78 @@
 # Commencer avec SuperGym
 
+## Outils Prérequis
 
+Cette application web ne peut fonctionner qu'en mode développement. 🥲 C'est-à-dire qu'il vous faudra un IDE (environnement
+de programmation) pour l'utiliser. J'ai utilisé WebStorm de Jetbrains pour la création de cette application.
 
-## Available Scripts
+Voici le lien pour télécharger WebStorm : ✨ https://www.jetbrains.com/webstorm/ ✨
 
-In the project directory, you can run:
+Il vous faudra aussi installer npm : https://www.npmjs.com/package/download et Node.js : https://nodejs.org/en/download
 
-### `npm start`
+## Installation de l'application
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1) Télécharger le zip de l'application disponible sur GitHub et le dézipper où vous pourrez facilement le retrouver.
+2) Ouvrir le dossier "supergym" via votre IDE (sur Webstorm : File>Open>supergym)
+3) Configuration d'un lancement simple avec WebStorm (optionnel)
+   ### Client :
+   &nbsp;&nbsp;&nbsp; 3.1. A.
+   A côté de l'icône de "bug", cliquer sur les 3 points verticaux puis sur "Edit".
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+   &nbsp;&nbsp;&nbsp; 3.1. B.
+   Une nouvelle fenêtre va s'ouvrir. Cliquer sur l'icône "+" en haut à gauche puis sur npm dans la liste proposée.
 
-### `npm test`
+   &nbsp;&nbsp;&nbsp; 3.1. C.
+   La partie "Name" indique le nom du raccourci que vous allez créer. Vous pouvez indiquer "run-client" par exemple.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   &nbsp;&nbsp;&nbsp; 3.1. D.
+   Dans la partie "package.json" veuillez indiquer le chemin absolu complet du fichier suivant : "supergym\client\package.json"
 
-### `npm run build`
+   &nbsp;&nbsp;&nbsp; 3.1. E.
+   Dans la partie "Command" indiquer la commande "start"
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   &nbsp;&nbsp;&nbsp; 3.1. F.
+   Dans la partie "Node interpreter" indiquer le chemin du fichier "node.exe" (ex: "C:\nvm4w\nodejs\node.exe")
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   &nbsp;&nbsp;&nbsp; 3.1. G.
+   Dans la partie "Package manager" indiquer le chemin du fichier "node.exe" (ex: "C:\nvm4w\nodejs\npm.cmd")
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   &nbsp;&nbsp;&nbsp; 3.1. H.
+   Cliquer sur "Apply" puis "OK" pour sauvegarder la configuration
 
-### `npm run eject`
+   ### Server :
+   &nbsp;&nbsp;&nbsp; 3.2. A.
+   Retourner dans le panneau d'ajout de configurations (étape 3.1. A)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+   &nbsp;&nbsp;&nbsp; 3.1. B.
+   Cliquer sur l'icône "+" en haut à gauche puis sur Node.js dans la liste proposée.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   &nbsp;&nbsp;&nbsp; 3.1. C.
+   La partie "Name" indique le nom du raccourci que vous allez créer. Vous pouvez indiquer "run-server" par exemple.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+   &nbsp;&nbsp;&nbsp; 3.1. D.
+   Dans la partie "Node interpreter" veuillez indiquer le chemin absolu complet du fichier node.exe (ex: "C:\nvm4w\nodejs\node.exe")
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+   &nbsp;&nbsp;&nbsp; 3.1. E.
+   Dans la partie "File" indiquer "server/server.js"
 
-## Learn More
+   &nbsp;&nbsp;&nbsp; 3.1. F.
+   Dans la partie "Node interpreter" indiquer le chemin du fichier "node.exe" (ex: "C:\nvm4w\nodejs\node.exe")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   &nbsp;&nbsp;&nbsp; 3.1. G.
+   Dans la partie "Package manager" indiquer le chemin du fichier "node.exe" (ex: "C:\nvm4w\nodejs\npm.cmd")
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+   &nbsp;&nbsp;&nbsp; 3.1. H.
+   Cliquer sur "Apply" puis "OK" pour sauvegarder la configuration
 
-### Code Splitting
+## Lancement de l'application
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Cliquer sur le panneau de "Run / Debug configuration" (à gauche du bouton de run) et lancer avec la fleche verte le server puis, de la même façon, lancer le client.
 
-### Analyzing the Bundle Size
+Félicitation vous avez lancé Supergym 🥳
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Utilisation de l'application
+Vous pouvez ajouter des données dans l'application depuis l'interface graphique mais aussi depuis les fichiers json.
 
-### Making a Progressive Web App
+Have fun ! (❁´◡`❁)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+   
