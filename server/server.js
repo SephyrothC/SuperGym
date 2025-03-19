@@ -93,6 +93,28 @@ app.get("/api/seances", (req, res) => {
     });
 });
 
+// Ajouter une nouvelle séance
+app.post("/api/seances", (req, res) => {
+    const newSeance = req.body;
+
+    fs.readFile(seancesFilePath, "utf8", (err, data) => {
+        if (err) {
+            return res.status(500).json({ error: "Erreur de lecture du fichier" });
+        }
+
+        const seance = JSON.parse(data);
+        newSeance.id = seance.length + 1; // Générer un nouvel ID
+        seance.push(newSeance);
+
+        fs.writeFile(seancesFilePath, JSON.stringify(seance, null, 2), (err) => {
+            if (err) {
+                return res.status(500).json({ error: "Erreur d'écriture dans le fichier" });
+            }
+            res.status(201).json(newSeance);
+        });
+    });
+});
+
 
 // Fichier JSON du calendrier
 const calendarFilePath = path.join(__dirname, "data", "calendar.json");
