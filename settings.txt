@@ -1,4 +1,4 @@
-root: C:\Users\cyrie\Documents\Projets\supergym\ 
+root: C:\Users\asgri\Documents\SuperGym
 path: C:\Program Files\nodejs 
 arch: 64 
 proxy: none
